@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Arial';
+  box-sizing: border-box;
+}
+
+ul>li {
+  list-style: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: black;
+  padding: 20px;
+}
+.app{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.wrapper {
+  width: 1000px;
+  background: rgb(58, 58, 158);
+  border: 3px solid black;
+  height: 570px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.top{
+ width: 95%;
+ height: 50px;
+ border-radius:10px;
+ margin-top: 10px;
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+} 
+.hnew{
+ background-color: brown;
+}
+
+.bot{
+ width: 95%;
+ height: 550px;
+ border-radius: 10px;
+ margin-top: 0px;
+ display: flex;
+}
+
+.left{
+ width: 30%;
+ height: 100%;
+ background: green;
+ border-radius:10px;
+ color:white;
+ display: flex;
+ padding-top: 20px;
+ justify-content: center;
+
+
+}
+
+.linew{
+ color: red;
+ text-decoration: underline;
+ background-color:rgb(208, 217, 124);
+}
+.right{
+ width: 70%;
+ height: 100%;
+ background: yellowgreen;
+ margin-left: 15px;
+ border-radius:10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: white;
+ position: relative;
+}
+.right2{
+ width: 70%;
+ height: 100%;
+ background: rgb(50, 177, 205);
+ margin-left: 15px;
+ border-radius:10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: white;
+}
+li{
+  margin-top: 5px;
+  width: 90%;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ol{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block1{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  border-radius: 20px;
+}
+.block2{
+  width: 100px;
+  height: 100px;
+}
+.block3{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+}
+.b1{
+  border-radius: 20px;
+}
+.li_1{
+  background: red;
+}
+.li_2{
+  background: orange;
+}
+.li_3{
+  background: blue;
+}
