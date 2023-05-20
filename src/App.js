@@ -28,7 +28,7 @@ function App(){
     setImg2("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStQPIV46vn1cSNO5_vkg6zQv0Z3ZSHkPvwK6z3XEjL4EOxEgwlujIe9Mh21xHPOIugNpc&usqp=CAU")
     setImg3("https://bipbap.ru/wp-content/uploads/2021/04/krutye-kartinki-dlya-vk-5-650x488-1.jpg")
 }, [])
-  
+
   return (
     
     <div className="app">
